@@ -8,7 +8,6 @@ from app import app
 def validate_access_token(token):
     base_url = 'https://api.amazon.com/user/profile?access_token='
     profile = requests.get(base_url + token)
-    app.logger.debug('hello')
 
     profile_id = profile.json()['user_id']
 

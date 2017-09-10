@@ -102,7 +102,7 @@ ENV/
 
 # Custom
 secrets.py
-*.log
+*.log*
 env/ngrok
 *.zip
 *.pyc
