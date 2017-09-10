@@ -19,7 +19,8 @@ def intent_router(intent):
         'Mute': '/mute',
         'Unmute': '/unmute',
         'VolumeDown': '/volumedown',
-        'VolumeUp': '/volumeup'
+        'VolumeUp': '/volumeup',
+        'Snooze': '/snooze'
     }
 
     return intent_map[intent]
