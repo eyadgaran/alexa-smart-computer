@@ -86,3 +86,9 @@ def snooze():
     [t.start() for t in threads]
 
     return statement('snoozing').render_response()
+
+
+# @ask.intent("Gibberish")
+@app.route('/gibberish/')
+def gibberish():
+    return statement("I'm sorry, that command was not recognized. lease try again").render_response()
