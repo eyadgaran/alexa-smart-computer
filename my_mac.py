@@ -23,4 +23,4 @@ def intent_router(intent):
         'Snooze': '/snooze'
     }
 
-    return intent_map[intent]
+    return intent_map.get(intent, '/{}'.format(intent.lower()))
