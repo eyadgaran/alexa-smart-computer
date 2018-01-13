@@ -101,6 +101,7 @@ ENV/
 .mypy_cache/
 
 # Custom
+python_requirements/
 secrets.py
 *.log*
 env/ngrok
