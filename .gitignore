@@ -102,3 +102,8 @@ ENV/
 
 # Custom
 python_requirements/
+secrets.py
+*.log*
+env/ngrok
+*.zip
+*.pyc
