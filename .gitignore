@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Custom
+secrets.py
+*.log*
+env/ngrok
+*.zip
+*.pyc
